@@ -5,22 +5,7 @@ import 'package:hive_tut_2/model/todo.dart';
 import 'package:hive_tut_2/screens/add_todo_Screen.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
-class MyApp extends StatefulWidget {
-  @override
-  _MyAppState createState() => _MyAppState();
-}
 
-class _MyAppState extends State<MyApp> {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: MyHomePage(title: 'Todo Hive Example'),
-    );
-  }
-}
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key? key, required this.title}) : super(key: key);
